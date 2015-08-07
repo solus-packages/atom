@@ -1,8 +1,8 @@
 name       : atom
-version    : 1.0.4
-release    : 13
+version    : 1.0.5
+release    : 14
 source     :
-    - https://github.com/atom/atom/archive/v1.0.4.tar.gz : 907310cd550de6f7f79422553974259753aca443fc5e8f335891a7d62800ecc0
+    - https://github.com/atom/atom/archive/v1.0.5.tar.gz : 73fdc458d9efcdc78cd90ca56a189ebad16ddab3fbab1a0d39323aa1eefc9e8b
 license    : MIT
 summary    : Atom is a hackable text editor for the 21st century.
 description: |
