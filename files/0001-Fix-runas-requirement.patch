@@ -1,0 +1,28 @@
+From e612c954337da3ff1073e04f3963f66b7d04f240 Mon Sep 17 00:00:00 2001
+From: Gabriel <g2p.code@gmail.com>
+Date: Thu, 24 Sep 2015 12:52:03 +0200
+Subject: [PATCH 1/1] Fix runas requirement
+
+runas 2 doesn't build with a recent node.js
+
+Closes issue #8922.
+---
+ build/package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/build/package.json b/build/package.json
+index 16486d7..cb140ca 100644
+--- a/build/package.json
++++ b/build/package.json
+@@ -33,7 +33,7 @@
+     "rcedit": "~0.3.0",
+     "request": "~2.27.0",
+     "rimraf": "~2.2.2",
+-    "runas": "^2",
++    "runas": "^3",
+     "tello": "1.0.5",
+     "temp": "~0.8.1",
+     "underscore-plus": "1.x",
+-- 
+2.5.3
+
