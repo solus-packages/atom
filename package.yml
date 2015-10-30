@@ -1,8 +1,8 @@
 name       : atom
-version    : 1.0.19
-release    : 18
+version    : 1.1.0
+release    : 20
 source     :
-    - https://github.com/atom/atom/archive/v1.0.19.tar.gz : 775742460826ab7d6b0ffd035632019041b0a1ae40f47e15f4098241744252b5
+    - https://github.com/atom/atom/archive/v1.1.0.tar.gz : 25a64813b2741540fc26dfa0cf82e5769b324c016317fa3ff0593679fd5e88e9
 license    : MIT
 summary    : Atom is a hackable text editor for the 21st century.
 description: |
@@ -16,8 +16,6 @@ rundeps :
     - gconf
     - git
     - nodejs
-setup    : |
-    %patch -p1 < $pkgfiles/0001-Fix-runas-requirement.patch
 build      : |
     export DESCRIPTION="Atom is a hackable text editor for the 21st century."
 
@@ -26,7 +24,11 @@ build      : |
     script/grunt install --build-dir %installroot%/atom-build --install-dir %installroot%/usr
     rm -rf %installroot%/atom-build
 
-    sed -e "s/<%= description %>/$DESCRIPTION/"  -e "s|<%= executable %>|/usr/bin/atom|"  -e "s|<%= iconName %>|atom|" resources/linux/atom.desktop.in > resources/linux/Atom.desktop
+    sed -e "s/<%= description %>/$DESCRIPTION/"  \
+        -e "s|<%= appName %>|Atom|"\
+        -e "s|<%= installDir %>/share/<%= appFileName %>|/usr/bin|"\
+        -e "s|<%= iconPath %>|atom|"\
+        resources/linux/atom.desktop.in > resources/linux/Atom.desktop
 
     install -Dm644 resources/linux/Atom.desktop %installroot%/usr/share/applications/atom.desktop
-    install -Dm644 resources/atom.png %installroot%/usr/share/pixmaps/atom.png
+    install -Dm644 resources/app-icons/stable/png/512.png %installroot%/usr/share/pixmaps/atom.png
