@@ -1,8 +1,8 @@
 name       : atom
-version    : 1.5.0
-release    : 34
+version    : 1.5.1
+release    : 35
 source     :
-    - https://github.com/atom/atom/archive/v1.5.0.tar.gz : e14c3fd98c6e85f0f7c53f79996844f199c79a0924e179a0bd5fb7777e5d2979
+    - https://github.com/atom/atom/archive/v1.5.1.tar.gz : 3ebbe040697270eef8d10ae76157aeef506269b621a6b6b870c514f6261ce874
 license    : MIT
 summary    : Atom is a hackable text editor for the 21st century.
 description: |
@@ -23,12 +23,5 @@ build      : |
     script/build --build-dir %installroot%/atom-build
     script/grunt install --build-dir %installroot%/atom-build --install-dir %installroot%/usr
     rm -rf %installroot%/atom-build
-
-    sed -e "s/<%= description %>/$DESCRIPTION/"  \
-        -e "s|<%= appName %>|Atom|"\
-        -e "s|<%= installDir %>/share/<%= appFileName %>|/usr/bin|"\
-        -e "s|<%= iconPath %>|atom|"\
-        resources/linux/atom.desktop.in > resources/linux/Atom.desktop
-
-    install -Dm644 resources/linux/Atom.desktop %installroot%/usr/share/applications/atom.desktop
+    install -Dm644 $pkgfiles/atom.desktop %installroot%/usr/share/applications/atom.desktop
     install -Dm644 resources/app-icons/stable/png/512.png %installroot%/usr/share/pixmaps/atom.png
