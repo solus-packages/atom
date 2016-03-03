@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Your Name Here</Name>
-            <Email>your.email@address</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
         </Packager>
         <License>MIT</License>
         <Summary xml:lang="en">Atom is a hackable text editor for the 21st century.</Summary>
@@ -30,12 +30,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="36">
-            <Date>2016-02-19</Date>
-            <Version>1.5.3</Version>
+        <Update release="37">
+            <Date>2016-03-03</Date>
+            <Version>1.5.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Your Name Here</Name>
-            <Email>your.email@address</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
         </Update>
     </History>
 </PISI>
