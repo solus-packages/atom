@@ -26,10 +26,80 @@
         </Files>
     </Package>
     <History>
+        <Update release="45">
+            <Date>2016-05-24</Date>
+            <Version>1.7.4</Version>
+            <Comment>Drop 1.7.3 tarball. Update tool is derped.</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="44">
             <Date>2016-05-23</Date>
             <Version>1.7.4</Version>
-            <Comment>Packaging update</Comment>
+            <Comment>Update to 1.7.4</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="43">
+            <Date>2016-04-29</Date>
+            <Version>1.7.3</Version>
+            <Comment>Update to 1.7.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="42">
+            <Date>2016-04-19</Date>
+            <Version>1.7.2</Version>
+            <Comment>Update to 1.7.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="41">
+            <Date>2016-04-15</Date>
+            <Version>1.7.1</Version>
+            <Comment>Update to 1.7.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="40">
+            <Date>2016-04-02</Date>
+            <Version>1.6.2</Version>
+            <Comment>Update to 1.6.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="39">
+            <Date>2016-03-30</Date>
+            <Version>1.6.1</Version>
+            <Comment>Update to 1.6.1, drop duplicate categorization in desktop file.</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="38">
+            <Date>2016-03-18</Date>
+            <Version>1.6.0</Version>
+            <Comment>Update to 1.6.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="37">
+            <Date>2016-03-03</Date>
+            <Version>1.5.4</Version>
+            <Comment>Update to 1.5.4</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="36">
+            <Date>2016-02-19</Date>
+            <Version>1.5.3</Version>
+            <Comment>Update to 1.5.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="35">
+            <Date>2016-02-11</Date>
+            <Version>1.5.1</Version>
+            <Comment>Update to 1.5.1. Drop sed replacement and move to using our own .desktop file.</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
