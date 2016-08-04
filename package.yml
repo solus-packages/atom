@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.9.2
-release    : 47
+release    : 48
 source     :
     - https://github.com/atom/atom/archive/v1.9.2.tar.gz : efa1fce07e3fb0b0e5efb007e5eab9afc12ecf071716d7492561d572a3281fca
 license    : MIT
