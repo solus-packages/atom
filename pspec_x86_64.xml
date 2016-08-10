@@ -6,7 +6,7 @@
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
-        <PartOf>editor</PartOf>
+        <PartOf>programming.ide</PartOf>
         <Summary xml:lang="en">Atom is a hackable text editor for the 21st century.</Summary>
         <Description xml:lang="en">Atom is a hackable text editor for the 21st century.
 </Description>
@@ -17,7 +17,7 @@
         <Summary xml:lang="en">Atom is a hackable text editor for the 21st century.</Summary>
         <Description xml:lang="en">Atom is a hackable text editor for the 21st century.
 </Description>
-        <PartOf>editor</PartOf>
+        <PartOf>programming.ide</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/applications/atom.desktop</Path>
@@ -26,9 +26,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="50">
-            <Date>2016-08-06</Date>
-            <Version>1.9.6</Version>
+        <Update release="52">
+            <Date>2016-08-10</Date>
+            <Version>1.9.8</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
