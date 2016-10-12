@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.11.0
-release    : 57
+release    : 58
 source     :
     - https://github.com/atom/atom/archive/v1.11.0.tar.gz : 55801619243a90e7fdc363cbc5f4077f9ea59a6dee8a83f359197126bffcd5ba
 license    : MIT
@@ -33,7 +33,7 @@ install    : |
         -or -name "test" -prune -exec rm -r '{}' \; \
         -or -name "tests" -prune -exec rm -r '{}' \;
     cp -R out/atom-$version-amd64/* $installdir/usr/share/atom/
-    ln -s /usr/share/atom/apm $installdir/usr/bin/apm
+    ln -s /usr/share/atom/resources/app/apm/bin/apm $installdir/usr/bin/apm
     ln -s /usr/share/atom/atom $installdir/usr/bin/atom
     install -Dm644 $pkgfiles/atom.desktop %installroot%/usr/share/applications/atom.desktop
     install -Dm644 resources/app-icons/stable/png/512.png %installroot%/usr/share/pixmaps/atom.png
