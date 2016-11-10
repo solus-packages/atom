@@ -8,6 +8,7 @@ libXfixes.so.3
 libXi.so.6
 libXrandr.so.2
 libXrender.so.1
+libXss.so.1
 libXtst.so.6
 libasound.so.2
 libatk-1.0.so.0
@@ -30,7 +31,6 @@ libgnome-keyring.so.0
 libgobject-2.0.so.0
 libgtk-x11-2.0.so.0
 libm.so.6
-libnotify.so.4
 libnspr4.so
 libnss3.so
 libnssutil3.so
@@ -40,3 +40,4 @@ libpthread.so.0
 librt.so.1
 libsmime3.so
 libstdc++.so.6
+libxkbfile.so.1
