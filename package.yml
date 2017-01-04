@@ -1,14 +1,15 @@
 name       : atom
-version    : 1.12.2
-release    : 63
+version    : 1.12.8
+release    : 64
 source     :
-    - https://github.com/atom/atom/archive/v1.12.2.tar.gz : f244c2769d2bf92510882ca169bb059932fd8640bf4d1df0d7c7f03073d3faf6
+    - https://github.com/atom/atom/archive/v1.12.8.tar.gz : 6ec95e5404156df947d68830a21d53144a9363a0f200cb8e0522933762dd3f42
 license    : MIT
 component  : programming.ide
 summary    : Atom is a hackable text editor for the 21st century.
 description: |
     Atom is a hackable text editor for the 21st century.
 ccache     : no
+networking : yes
 builddeps  :
     - pkgconfig(gnome-keyring-1)
     - pkgconfig(xkbfile)
