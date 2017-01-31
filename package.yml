@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.13.1
-release    : 67
+release    : 69
 source     :
     - https://github.com/atom/atom/archive/v1.13.1.tar.gz : 4293bdde0ae4c6a78ebcbd46c797653db5b9e3075a82e3960ea9c7ed647e1233
 license    : MIT
@@ -11,14 +11,23 @@ description: |
 ccache     : no
 networking : yes
 builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gconf-2.0)
     - pkgconfig(gnome-keyring-1)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(xcomposite)
+    - pkgconfig(xcursor)
+    - pkgconfig(xdamage)
+    - pkgconfig(xi)
     - pkgconfig(xkbfile)
+    - pkgconfig(xrandr)
+    - pkgconfig(xscrnsaver)
+    - pkgconfig(xtst)
+    - cups-devel
     - git
     - nodejs-devel
 rundeps    :
-    - gconf
     - git
-    - nodejs
 build      : |
     mkdir -p %installroot%/usr/bin/
     script/build
