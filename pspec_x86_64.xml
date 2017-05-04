@@ -26,8 +26,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="76">
-            <Date>2017-04-15</Date>
+        <Update release="77">
+            <Date>2017-05-04</Date>
             <Version>1.16.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>

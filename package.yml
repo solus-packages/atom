@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.16.0
-release    : 76
+release    : 77
 source     :
     - https://github.com/atom/atom/archive/v1.16.0.tar.gz : 6cd5389813018027f0d6c2e652ff64cfc947b69d8648cdfe34116ee78996e007
 license    : MIT
@@ -28,6 +28,9 @@ builddeps  :
     - nodejs-devel
 rundeps    :
     - git
+setup      : |
+    sed -i 's:majorVersion < 7:majorVersion < 42:g' script/lib/verify-machine-requirements.js
+    sed -i 's:majorVersion >= 7:majorVersion >= 42:g' script/lib/verify-machine-requirements.js
 build      : |
     mkdir -p %installroot%/usr/bin/
     script/build
