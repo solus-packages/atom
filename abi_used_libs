@@ -15,6 +15,7 @@ libatk-1.0.so.0
 libc.so.6
 libcairo.so.2
 libcups.so.2
+libcurl.so.4
 libdbus-1.so.3
 libdl.so.2
 libexpat.so.1
@@ -27,7 +28,6 @@ libgdk_pixbuf-2.0.so.0
 libgio-2.0.so.0
 libglib-2.0.so.0
 libgmodule-2.0.so.0
-libgnome-keyring.so.0
 libgobject-2.0.so.0
 libgtk-x11-2.0.so.0
 libm.so.6
@@ -38,6 +38,8 @@ libpango-1.0.so.0
 libpangocairo-1.0.so.0
 libpthread.so.0
 librt.so.1
+libsecret-1.so.0
 libsmime3.so
 libstdc++.so.6
 libxkbfile.so.1
+libz.so.1
