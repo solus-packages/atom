@@ -26,9 +26,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="89">
-            <Date>2017-09-07</Date>
-            <Version>1.19.7</Version>
+        <Update release="90">
+            <Date>2017-09-12</Date>
+            <Version>1.20.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
