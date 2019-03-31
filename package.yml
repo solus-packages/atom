@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.35.1
-release    : 116
+release    : 117
 source     :
     - https://github.com/atom/atom/archive/v1.35.1.tar.gz : a50bcfcda4cfe6017fb76defc3a0eeaca209954d86a631f5963e69a0c064c2e8
 license    : MIT
