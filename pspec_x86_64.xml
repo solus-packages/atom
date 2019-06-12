@@ -89,7 +89,6 @@
             <Path fileType="data">/usr/share/atom/pdf_viewer_resources.pak</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/fuzzy-native/build/Release/fuzzy-native.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/fuzzy-native/build/fuzzy-native/v0.7.0/electron-v2.0-linux-x64/fuzzy-native.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/nsfw/build/Release/nsfw.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/watcher/build/Release/watcher.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/cached-run-in-this-context/build/Release/cached-run-in-this-context.node</Path>
@@ -224,6 +223,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/linux-ssh-wrapper.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/language-json/node_modules/tree-sitter-json/build/Release/tree_sitter_json_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
@@ -257,7 +257,6 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_typescript_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter/build/Release/tree_sitter_runtime_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/vscode-ripgrep/bin/rg</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/whats-my-line/node_modules/superstring/build/Release/superstring.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/resources/atom.png</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/.github/no-response.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/BUNDLED_NODE_VERSION</Path>
@@ -4238,9 +4237,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="120">
-            <Date>2019-05-18</Date>
-            <Version>1.37.0</Version>
+        <Update release="121">
+            <Date>2019-06-12</Date>
+            <Version>1.38.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Jacob Alzén</Name>
             <Email>jacob.alzen@gmail.com</Email>
