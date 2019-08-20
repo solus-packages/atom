@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Jacob Alzén</Name>
+            <Email>jacob.alzen@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -221,7 +221,6 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/linux-ssh-wrapper.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/language-json/node_modules/tree-sitter-json/build/Release/tree_sitter_json_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
@@ -240,6 +239,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-win32.exe</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/text-buffer/node_modules/fs-admin/build/Release/fs_admin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/text-buffer/node_modules/superstring/build/Release/superstring.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-bash/build/Release/tree_sitter_bash_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-c/build/Release/tree_sitter_c_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-cpp/build/Release/tree_sitter_cpp_binding.node</Path>
@@ -249,6 +249,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-html/build/Release/tree_sitter_html_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-javascript/build/Release/tree_sitter_javascript_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-jsdoc/build/Release/tree_sitter_jsdoc_binding.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-json/build/Release/tree_sitter_json_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-python/build/Release/tree_sitter_python_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-regex/build/Release/tree_sitter_regex_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-ruby/build/Release/tree_sitter_ruby_binding.node</Path>
@@ -353,6 +354,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/compile/ucs2length.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/compile/util.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/data.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/definition_schema.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/dot/_limit.jst</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/dot/_limitItems.jst</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ajv/lib/dot/_limitLength.jst</Path>
@@ -427,11 +429,13 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aproba/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aproba/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/isarray/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/duplex-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/duplex.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/lib/_stream_duplex.js</Path>
@@ -450,6 +454,9 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/transform.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/writable-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/readable-stream/writable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/safe-buffer/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/safe-buffer/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/string_decoder/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/string_decoder/lib/string_decoder.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/node_modules/string_decoder/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/package.json</Path>
@@ -459,6 +466,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/are-we-there-yet/tracker.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar-require/lib/require.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar-require/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar/bin/asar</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar/lib/asar.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asar/lib/crawlfs.js</Path>
@@ -499,6 +507,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/asynckit/stream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws-sign2/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws-sign2/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws4/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws4/aws4.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws4/lru.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/aws4/package.json</Path>
@@ -506,18 +515,22 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/balanced-match/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bcrypt-pbkdf/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bcrypt-pbkdf/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/lib/vars.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/perf/loop.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/binary/perf/small.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/bl.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/isarray/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/duplex-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/duplex.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/lib/_stream_duplex.js</Path>
@@ -529,6 +542,8 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/lib/internal/streams/destroy.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/lib/internal/streams/stream-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/lib/internal/streams/stream.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/node_modules/safe-buffer/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/node_modules/safe-buffer/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/passthrough.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/readable-browser.js</Path>
@@ -536,7 +551,10 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/transform.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/writable-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/readable-stream/writable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/string_decoder/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/string_decoder/lib/string_decoder.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/string_decoder/node_modules/safe-buffer/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/string_decoder/node_modules/safe-buffer/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/node_modules/string_decoder/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/bl/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/block-stream/LICENCE</Path>
@@ -611,6 +629,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/commander/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/commander/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/commander/typings</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/concat-map/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/concat-map/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/concat-map/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/concat-map/package.json</Path>
@@ -621,6 +640,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/core-util-is/lib/util.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/core-util-is/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/core-util-is/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cson-parser/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cson-parser/lib/cson-parser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cson-parser/lib/parse.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cson-parser/lib/stringify.js</Path>
@@ -634,6 +654,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cuint/lib/uint32.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cuint/lib/uint64.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/cuint/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/d/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/d/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/d/LICENCE</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/d/auto-bind.js</Path>
@@ -907,6 +928,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/math/trunc/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/math/trunc/is-implemented.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/math/trunc/shim.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/d/.github/FUNDING.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/d/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/d/auto-bind.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/d/index.js</Path>
@@ -914,6 +936,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/d/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/#/chain.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/CHANGES</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/array.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/for-of.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/get.js</Path>
@@ -922,6 +945,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/string.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-iterator/valid-iterable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-symbol/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-symbol/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-symbol/implement.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/node_modules/es6-symbol/index.js</Path>
@@ -1139,6 +1163,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/string/raw/shim.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es5-ext/to-short-string-representation.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/#/chain.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/array.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/for-of.js</Path>
@@ -1148,6 +1173,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/string.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-iterator/valid-iterable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/implement.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/index.js</Path>
@@ -1157,6 +1183,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/polyfill.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-symbol/validate-symbol.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-weak-map/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-weak-map/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-weak-map/LICENCE</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/es6-weak-map/implement.js</Path>
@@ -1173,10 +1200,12 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/event-kit/lib/emitter.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/event-kit/lib/event-kit.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/event-kit/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/expand-template/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/expand-template/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/expand-template/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/expand-template/test.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extend/.jscs.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extend/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extend/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extend/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extend/package.json</Path>
@@ -1188,6 +1217,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/extsprintf/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-deep-equal/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-deep-equal/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-json-stable-stringify/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-json-stable-stringify/benchmark/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-json-stable-stringify/benchmark/test.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fast-json-stable-stringify/index.js</Path>
@@ -1256,6 +1286,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-extra/lib/util/utimes.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-extra/lib/walk/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-extra/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-plus/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-plus/lib/fs-plus.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-plus/node_modules/async/dist/async.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs-plus/node_modules/async/dist/async.min.js</Path>
@@ -1265,6 +1296,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs.realpath/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs.realpath/old.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fs.realpath/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fstream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fstream/fstream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fstream/lib/abstract.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/fstream/lib/collect.js</Path>
@@ -1297,6 +1329,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/gauge/theme-set.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/gauge/themes.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/gauge/wide-truncate.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/getpass/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/getpass/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/getpass/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/git-utils/build/Release/.deps/Release</Path>
@@ -1320,6 +1353,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/git-utils/lib/git.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/git-utils/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/git-utils/src</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/github-from-package/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/github-from-package/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/github-from-package/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/github-from-package/readme.markdown</Path>
@@ -1390,6 +1424,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isarray/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isarray/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isstream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isstream/isstream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isstream/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/isstream/test.js</Path>
@@ -1397,6 +1432,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsbn/example.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsbn/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsbn/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-schema-traverse/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-schema-traverse/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-schema-traverse/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-schema-traverse/spec/fixtures/schema.js</Path>
@@ -1428,13 +1464,13 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-stringify-safe/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-stringify-safe/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/json-stringify-safe/stringify.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsonfile/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsonfile/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsonfile/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsprim/lib/jsprim.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/jsprim/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/keytar/build/Release/keytar.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/keytar/lib/keytar.js</Path>
-            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/keytar/node_modules/nan/tools</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/keytar/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/keytar/src</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/klaw/package.json</Path>
@@ -1452,11 +1488,13 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mimic-response/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimatch/minimatch.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimatch/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/minimist/readme.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mixto/lib/mixin.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mixto/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mkdirp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mkdirp/bin/cmd.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mkdirp/bin/usage.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mkdirp/index.js</Path>
@@ -1470,12 +1508,15 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mksnapshot/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mute-stream/mute.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mute-stream/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/.bin/ncp</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/.bin/rimraf</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/mkdirp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/mkdirp/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/mkdirp/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/mkdirp/readme.markdown</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/ncp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/ncp/bin/ncp</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/ncp/lib/ncp.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/mv/node_modules/ncp/package.json</Path>
@@ -1488,24 +1529,30 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/napi-build-utils/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/napi-build-utils/napi-build-utils-1.0.0.tgz</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/napi-build-utils/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ncp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ncp/bin/ncp</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ncp/lib/ncp.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/ncp/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/next-tick/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/next-tick/CHANGES</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/next-tick/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/next-tick/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/node-abi/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/node-abi/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/node-abi/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/noop-logger/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/noop-logger/circle.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/noop-logger/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/noop-logger/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/nopt/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/nopt/bin/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/nopt/lib/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/nopt/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/.mailmap</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/AUTHORS</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/Makefile</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm</Path>
@@ -1729,6 +1776,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/.bin/sshpk-verify</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/.bin/uuid</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/.bin/which</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/JSONStream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/JSONStream/LICENSE.APACHE2</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/JSONStream/LICENSE.MIT</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/JSONStream/bin.js</Path>
@@ -1737,6 +1785,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/JSONStream/readme.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/abbrev/abbrev.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/abbrev/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/agent-base/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/agent-base/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/agent-base/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/agent-base/patch-core.js</Path>
@@ -1758,6 +1807,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ansistyles/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aproba/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aproba/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/archy/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/archy/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/archy/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/archy/package.json</Path>
@@ -1772,6 +1822,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asap/browser-raw.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asap/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asap/raw.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asn1/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asn1/lib/ber/errors.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asn1/lib/ber/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asn1/lib/ber/reader.js</Path>
@@ -1802,6 +1853,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/asynckit/stream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws-sign2/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws-sign2/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws4/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws4/aws4.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws4/lru.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/aws4/package.json</Path>
@@ -1856,6 +1908,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/using.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/util.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/boom/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/boom/images/boom.png</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/boom/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/boom/package.json</Path>
@@ -1870,6 +1923,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtin-modules/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtin-modules/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtin-modules/static.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtins/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtins/License</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtins/builtins.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/builtins/package.json</Path>
@@ -1947,6 +2001,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/clone/clone.iml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/clone/clone.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/clone/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cmd-shim/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cmd-shim/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cmd-shim/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/co/index.js</Path>
@@ -1985,6 +2040,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/combined-stream/lib/combined_stream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/combined-stream/lib/defer.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/combined-stream/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/concat-map/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/concat-map/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/concat-map/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/concat-map/package.json</Path>
@@ -2019,6 +2075,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cross-spawn/lib/util/readShebang.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cross-spawn/lib/util/resolveCommand.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cross-spawn/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cryptiles/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cryptiles/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/cryptiles/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/crypto-random-string/index.js</Path>
@@ -2033,6 +2090,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dashdash/node_modules/assert-plus/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dashdash/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/debug/.coveralls.yml</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/debug/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/debug/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/debug/karma.conf.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/debug/node.js</Path>
@@ -2067,15 +2125,18 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/detect-indent/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/detect-newline/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/detect-newline/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dezalgo/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dezalgo/dezalgo.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dezalgo/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dot-prop/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dot-prop/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dotenv/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dotenv/config.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dotenv/lib/main.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/dotenv/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexer3/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexer3/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexify/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexify/example.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexify/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/duplexify/package.json</Path>
@@ -2089,15 +2150,18 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/editor/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/editor/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/editor/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/encoding/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/encoding/lib/encoding.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/encoding/lib/iconv-loader.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/encoding/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/end-of-stream/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/end-of-stream/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/err-code/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/err-code/bower.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/err-code/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/err-code/index.umd.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/err-code/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/errno/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/errno/build.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/errno/cli.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/errno/custom.js</Path>
@@ -2137,6 +2201,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/execa/lib/stdio.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/execa/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/extend/.jscs.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/extend/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/extend/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/extend/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/extend/package.json</Path>
@@ -2152,6 +2217,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/find-npm-prefix/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/find-up/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/find-up/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/flush-write-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/flush-write-stream/example.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/flush-write-stream/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/flush-write-stream/package.json</Path>
@@ -2163,13 +2229,16 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/form-data/lib/form_data.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/form-data/lib/populate.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/form-data/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/from2/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/from2/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/from2/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/from2/test.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-minipass/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-minipass/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-vacuum/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-vacuum/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-vacuum/vacuum.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-write-stream-atomic/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-write-stream-atomic/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-write-stream-atomic/node_modules/iferr/index.coffee</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs-write-stream-atomic/node_modules/iferr/index.js</Path>
@@ -2178,6 +2247,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs.realpath/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs.realpath/old.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fs.realpath/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fstream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fstream/fstream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fstream/lib/abstract.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/fstream/lib/collect.js</Path>
@@ -2229,6 +2299,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/get-stream/buffer-stream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/get-stream/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/get-stream/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/getpass/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/getpass/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/getpass/node_modules/assert-plus/AUTHORS</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/getpass/node_modules/assert-plus/assert.js</Path>
@@ -2368,6 +2439,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/has-flag/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/has-unicode/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/has-unicode/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/bower.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/dist/client.js</Path>
@@ -2380,6 +2452,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/lib/server.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/lib/utils.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hawk/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hoek/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hoek/images/hoek.png</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hoek/lib/escape.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hoek/lib/index.js</Path>
@@ -2390,6 +2463,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/hosted-git-info/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-cache-semantics/node4/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-cache-semantics/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-proxy-agent/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-proxy-agent/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-proxy-agent/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-signature/.dir-locals.el</Path>
@@ -2399,10 +2473,12 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-signature/lib/utils.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-signature/lib/verify.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/http-signature/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/https-proxy-agent/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/https-proxy-agent/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/https-proxy-agent/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/humanize-ms/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/humanize-ms/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/iconv-lite/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/iconv-lite/encodings/dbcs-codec.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/iconv-lite/encodings/dbcs-data.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/iconv-lite/encodings/index.js</Path>
@@ -2449,10 +2525,12 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip-regex/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip-regex/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip/.jscsrc</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip/lib/ip.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ip/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-builtin-module/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-builtin-module/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-ci/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-ci/bin.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-ci/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-ci/package.json</Path>
@@ -2478,6 +2556,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-typedarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-typedarray/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/is-typedarray/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isarray/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isarray/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isarray/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isarray/index.js</Path>
@@ -2487,6 +2566,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isexe/mode.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isexe/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isexe/windows.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isstream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isstream/isstream.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isstream/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/isstream/test.js</Path>
@@ -2520,6 +2600,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-schema/lib/links.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-schema/lib/validate.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-schema/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-stable-stringify/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-stable-stringify/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-stable-stringify/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/json-stable-stringify/readme.markdown</Path>
@@ -2604,6 +2685,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/locate-path/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lock-verify/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lock-verify/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lockfile/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lockfile/gen-changelog.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lockfile/lockfile.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/lockfile/package.json</Path>
@@ -2649,6 +2731,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/make-fetch-happen/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/make-fetch-happen/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/make-fetch-happen/warning.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/meant/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/meant/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/meant/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/meant/test.js</Path>
@@ -2663,6 +2746,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mimic-fn/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimatch/minimatch.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimatch/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minimist/readme.markdown</Path>
@@ -2676,6 +2760,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/minizlib/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mississippi/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mississippi/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mkdirp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mkdirp/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mkdirp/bin/cmd.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mkdirp/bin/usage.txt</Path>
@@ -2685,6 +2770,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/move-concurrently/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ms/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ms/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mute-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mute-stream/coverage/lcov-report/__root__/index.html</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mute-stream/coverage/lcov-report/__root__/mute.js.html</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/mute-stream/coverage/lcov-report/base.css</Path>
@@ -2802,6 +2888,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/lib/remove.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/.bin/nopt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/.bin/semver</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/nopt/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/nopt/bin/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/nopt/lib/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/nopt/package.json</Path>
@@ -2809,6 +2896,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/semver/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/semver/range.bnf</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/semver/semver.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/tar/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/tar/lib/buffer-entry.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/tar/lib/entry-writer.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/tar/lib/entry.js</Path>
@@ -2823,6 +2911,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/node_modules/tar/tar.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/node-gyp/src/win_delay_load_hook.cc</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/nopt/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/nopt/bin/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/nopt/lib/nopt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/nopt/package.json</Path>
@@ -2940,14 +3029,17 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/make-fetch-happen/warning.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/pump/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/pump/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/pump/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/pump/test-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/pump/test-node.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/smart-buffer/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/smart-buffer/build/smartbuffer.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/smart-buffer/lib/smart-buffer.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/smart-buffer/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/smart-buffer/typings</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/socks-proxy-agent/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/socks-proxy-agent/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/socks-proxy-agent/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-fetch/node_modules/socks/index.js</Path>
@@ -3036,6 +3128,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/path-key/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/path-key/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/performance-now/.tm_properties</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/performance-now/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/performance-now/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/performance-now/lib/performance-now.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/performance-now/license.txt</Path>
@@ -3049,6 +3142,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/process-nextick-args/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-inflight/inflight.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-inflight/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-retry/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-retry/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-retry/node_modules/retry/License</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/promise-retry/node_modules/retry/Makefile</Path>
@@ -3064,17 +3158,21 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/proto-list/proto-list.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/protoduck/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/protoduck/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/prr/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/prr/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/prr/prr.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/prr/test.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pseudomap/map.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pseudomap/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pseudomap/pseudomap.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pump/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pump/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pump/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pump/test-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pump/test-node.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/node_modules/pump/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/node_modules/pump/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/node_modules/pump/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pumpify/node_modules/pump/test-browser.js</Path>
@@ -3084,6 +3182,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/punycode/LICENSE-MIT.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/punycode/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/punycode/punycode.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/qrcode-terminal/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/qrcode-terminal/bin/qrcode-terminal.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/qrcode-terminal/lib/main.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/qrcode-terminal/package.json</Path>
@@ -3117,12 +3216,14 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/cli.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/lib/utils.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/node_modules/minimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/node_modules/minimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/node_modules/minimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/node_modules/minimist/readme.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/rc/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-cmd-shim/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-cmd-shim/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-installed/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-installed/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-installed/read-installed.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-package-json/package.json</Path>
@@ -3131,6 +3232,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read-package-tree/rpt.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read/lib/read.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/read/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/duplex-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/duplex.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/lib/_stream_duplex.js</Path>
@@ -3149,6 +3251,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/transform.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/writable-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readable-stream/writable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readdir-scoped-modules/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readdir-scoped-modules/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/readdir-scoped-modules/readdir.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/registry-auth-token/base64.js</Path>
@@ -3171,15 +3274,18 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/request/lib/tunnel.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/request/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/request/request.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-directory/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-directory/README.markdown</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-directory/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-directory/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-main-filename/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-main-filename/LICENSE.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-main-filename/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-main-filename/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/require-main-filename/test.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/resolve-from/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/resolve-from/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/retry/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/retry/License</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/retry/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/retry/equation.gif</Path>
@@ -3226,19 +3332,23 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/slide/lib/chain.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/slide/lib/slide.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/slide/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/build/smartbuffer.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/build/utils.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/docs</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/typings</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/smart-buffer/yarn.lock</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sntp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sntp/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sntp/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sntp/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sntp/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks-proxy-agent/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks-proxy-agent/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks-proxy-agent/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks/.prettierrc.yaml</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks/build/client/socksclient.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks/build/common/constants.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/socks/build/common/helpers.js</Path>
@@ -3254,6 +3364,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-object/LICENSE.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-object/lib/sorted-object.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-object/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-union-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-union-stream/example.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-union-stream/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sorted-union-stream/node_modules/from2/index.js</Path>
@@ -3291,6 +3402,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/spdx-license-ids/deprecated.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/spdx-license-ids/index.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/spdx-license-ids/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sshpk/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sshpk/bin/sshpk-conv</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sshpk/bin/sshpk-sign</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sshpk/bin/sshpk-verify</Path>
@@ -3324,12 +3436,15 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/sshpk/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ssri/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/ssri/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-each/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-each/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-each/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-each/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-iterate/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-iterate/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-iterate/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-iterate/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-shift/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-shift/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-shift/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stream-shift/test.js</Path>
@@ -3343,8 +3458,10 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string-width/node_modules/strip-ansi/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string-width/node_modules/strip-ansi/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string-width/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string_decoder/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string_decoder/lib/string_decoder.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/string_decoder/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stringstream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stringstream/LICENSE.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stringstream/example.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/stringstream/package.json</Path>
@@ -3387,9 +3504,11 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/term-size/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/term-size/vendor/macos/term-size</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/term-size/vendor/windows/term-size.exe</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/text-table/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/text-table/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/text-table/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/text-table/readme.markdown</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/through/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/through/LICENSE.APACHE2</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/through/LICENSE.MIT</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/through/index.js</Path>
@@ -3424,6 +3543,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/tweetnacl/nacl.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/tweetnacl/nacl.min.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/tweetnacl/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/typedarray/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/typedarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/typedarray/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/typedarray/readme.markdown</Path>
@@ -3443,6 +3563,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-filename/coverage/sorter.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-filename/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-filename/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-slug/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-slug/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-slug/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/unique-string/index.js</Path>
@@ -3481,6 +3602,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-license/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-license/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-license/test.log</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-name/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-name/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/validate-npm-package-name/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/verror/lib/verror.js</Path>
@@ -3503,6 +3625,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/wide-align/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/widest-line/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/widest-line/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/worker-farm/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/worker-farm/lib/child/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/worker-farm/lib/farm.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/worker-farm/lib/fork.js</Path>
@@ -3596,6 +3719,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/object-assign/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/once/once.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/once/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/oniguruma/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/oniguruma/build/Release/.deps/Release</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/oniguruma/build/Release/oniguruma.a</Path>
@@ -3611,6 +3735,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/open/lib/open.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/open/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/open/vendor/xdg-open</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/optimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/optimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/optimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/optimist/readme.markdown</Path>
@@ -3623,10 +3748,13 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/path-is-absolute/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/path-is-absolute/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/.tm_properties</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/lib/performance-now.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/license.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/performance-now/src/performance-now.coffee</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/.travis.yml</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/asset.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/bin.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/download.js</Path>
@@ -3634,6 +3762,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/help.txt</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/log.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/node_modules/minimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/node_modules/minimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/node_modules/minimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/prebuild-install/node_modules/minimist/readme.markdown</Path>
@@ -3646,13 +3775,16 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/property-accessors/lib/property-accessors.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/property-accessors/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/.eslintignore</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/data/rules.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/dist/psl.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/dist/psl.min.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/karma.conf.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/package.json</Path>
-            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/yarn.lock</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/scripts/ci-build.sh</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/psl/scripts/update-rules.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/pump/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/pump/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/pump/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/pump/test-browser.js</Path>
@@ -3681,6 +3813,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/cli.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/lib/utils.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/node_modules/minimist/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/node_modules/minimist/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/node_modules/minimist/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/rc/node_modules/minimist/readme.markdown</Path>
@@ -3760,6 +3893,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/cson-parser/lib/parse.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/cson-parser/lib/stringify.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/cson-parser/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/fs-plus/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/fs-plus/lib/fs-plus.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/node_modules/fs-plus/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/season/package.json</Path>
@@ -3774,10 +3908,12 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/signal-exit/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/signal-exit/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/signal-exit/signals.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/simple-concat/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/simple-concat/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/simple-concat/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/simple-get/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/simple-get/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/sshpk/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/sshpk/bin/sshpk-conv</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/sshpk/bin/sshpk-sign</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/sshpk/bin/sshpk-verify</Path>
@@ -3815,7 +3951,9 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/strip-ansi/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/strip-json-comments/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/strip-json-comments/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/node_modules/pump/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/node_modules/pump/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/node_modules/pump/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-fs/node_modules/pump/test-browser.js</Path>
@@ -3824,11 +3962,13 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/extract.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/headers.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/component.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/isarray/test.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/duplex-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/duplex.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/lib/_stream_duplex.js</Path>
@@ -3847,6 +3987,9 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/transform.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/writable-browser.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/readable-stream/writable.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/safe-buffer/index.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/safe-buffer/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/string_decoder/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/string_decoder/lib/string_decoder.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/node_modules/string_decoder/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar-stream/pack.js</Path>
@@ -3876,6 +4019,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/.nyc_output/processinfo/fb518800-240c-42ff-811f-79e92708d9db.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/.nyc_output/processinfo/fdecfc06-a944-4897-9530-e08f62883fc1.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/.nyc_output/processinfo/index.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/coverage/lcov-report/base.css</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/coverage/lcov-report/index.html</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/coverage/lcov-report/prettify.css</Path>
@@ -3916,6 +4060,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/lib/parse.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tar/tar.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/lib/temp.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/no_cleanup.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/no_cleanup_on_exit.js</Path>
@@ -3926,10 +4071,12 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/node_modules/rimraf/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/node_modules/rimraf/rimraf.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/temp/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tmp/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tmp/Gruntfile.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tmp/cleanup.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tmp/lib/tmp.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tmp/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/to-buffer/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/to-buffer/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/to-buffer/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/to-buffer/test.js</Path>
@@ -3960,6 +4107,56 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tweetnacl/nacl.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tweetnacl/nacl.min.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/tweetnacl/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/.prettierrc.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array-length/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array-length/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array-like/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array-like/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/array/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/date/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/date/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/error/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/error/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/finite/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/finite/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/function/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/function/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/integer/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/integer/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/iterable/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/iterable/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/lib/is-to-string-tag-supported.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/lib/resolve-exception.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/lib/safe-to-string.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/lib/to-short-string.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/natural-number/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/natural-number/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/number/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/number/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/object/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/object/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/plain-function/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/plain-function/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/plain-object/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/plain-object/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/promise/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/promise/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/prototype/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/reg-exp/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/reg-exp/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/safe-integer/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/safe-integer/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/string/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/string/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/thenable/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/thenable/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/time-value/coerce.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/time-value/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/value/ensure.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/type/value/is.js</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/underscore-plus/appveyor.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/underscore-plus/lib/underscore-plus.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/underscore-plus/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/underscore/package.json</Path>
@@ -4034,6 +4231,7 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmlbuilder/lib/XMLFragment.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmlbuilder/lib/index.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmlbuilder/package.json</Path>
+            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/.travis.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/__package__.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/changelog</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/component.json</Path>
@@ -4041,8 +4239,6 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/dom.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xmldom/sax.js</Path>
-            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xtend/LICENCE</Path>
-            <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xtend/Makefile</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xtend/immutable.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xtend/mutable.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/xtend/package.json</Path>
@@ -4123,12 +4319,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="123">
-            <Date>2019-07-23</Date>
-            <Version>1.39.0</Version>
+        <Update release="124">
+            <Date>2019-08-17</Date>
+            <Version>1.40.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Jacob Alzén</Name>
+            <Email>jacob.alzen@gmail.com</Email>
         </Update>
     </History>
 </PISI>
