@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.40.1
-release    : 125
+release    : 126
 source     :
     - https://github.com/atom/atom/archive/v1.40.1.tar.gz : 7ec4b3fd35d3dcb4df90911726144ca5d05335ee9c0f093f2c29fa22fbe3527a
 license    : MIT
@@ -31,8 +31,7 @@ rundeps    :
     - curl-gnutls
     - git
 setup      : |
-    sed -i 's:majorVersion < 7:majorVersion < 42:g' script/lib/verify-machine-requirements.js
-    sed -i 's:majorVersion >= 7:majorVersion >= 42:g' script/lib/verify-machine-requirements.js
+    %patch -p1 < $pkgfiles/0001-Revert-git-utils-to-5.5.0-to-fix-undefined-symbols-o.patch
 build      : |
     mkdir -p %installroot%/usr/bin/
     script/build

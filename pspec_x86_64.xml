@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -224,6 +224,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/scandal/node_modules/git-utils/build/Release/git.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/scrollbar-style/build/Release/scrollbar-style-observer.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/spellchecker/build/Release/hunspell.a</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/spellchecker/build/Release/spellchecker.node</Path>
@@ -4319,12 +4320,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="125">
-            <Date>2019-08-22</Date>
+        <Update release="126">
+            <Date>2019-09-12</Date>
             <Version>1.40.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
