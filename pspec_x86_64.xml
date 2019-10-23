@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Jacob Alzén</Name>
+            <Email>jacob.alzen@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -25,12 +25,12 @@
             <Path fileType="data">/usr/share/atom/LICENSES.chromium.html</Path>
             <Path fileType="data">/usr/share/atom/atom</Path>
             <Path fileType="data">/usr/share/atom/atom.png</Path>
-            <Path fileType="data">/usr/share/atom/blink_image_resources_200_percent.pak</Path>
-            <Path fileType="data">/usr/share/atom/content_resources_200_percent.pak</Path>
-            <Path fileType="data">/usr/share/atom/content_shell.pak</Path>
+            <Path fileType="data">/usr/share/atom/chrome_100_percent.pak</Path>
+            <Path fileType="data">/usr/share/atom/chrome_200_percent.pak</Path>
             <Path fileType="data">/usr/share/atom/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/atom/libEGL.so</Path>
+            <Path fileType="data">/usr/share/atom/libGLESv2.so</Path>
             <Path fileType="data">/usr/share/atom/libffmpeg.so</Path>
-            <Path fileType="data">/usr/share/atom/libnode.so</Path>
             <Path fileType="data">/usr/share/atom/locales/am.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/ar.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/bg.pak</Path>
@@ -46,7 +46,6 @@
             <Path fileType="data">/usr/share/atom/locales/es.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/et.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/fa.pak</Path>
-            <Path fileType="data">/usr/share/atom/locales/fake-bidi.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/fi.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/fil.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/fr.pak</Path>
@@ -86,6 +85,7 @@
             <Path fileType="data">/usr/share/atom/locales/zh-CN.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/zh-TW.pak</Path>
             <Path fileType="data">/usr/share/atom/natives_blob.bin</Path>
+            <Path fileType="data">/usr/share/atom/resources.pak</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/fuzzy-native/build/Release/fuzzy-native.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/nsfw/build/Release/nsfw.node</Path>
@@ -4312,20 +4312,20 @@
             <Path fileType="data">/usr/share/atom/resources/app/atom.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/electron.asar</Path>
             <Path fileType="data">/usr/share/atom/snapshot_blob.bin</Path>
-            <Path fileType="data">/usr/share/atom/ui_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/atom/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/usr/share/atom/swiftshader/libGLESv2.so</Path>
             <Path fileType="data">/usr/share/atom/v8_context_snapshot.bin</Path>
             <Path fileType="data">/usr/share/atom/version</Path>
-            <Path fileType="data">/usr/share/atom/views_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/pixmaps/atom.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="126">
-            <Date>2019-09-12</Date>
-            <Version>1.40.1</Version>
+        <Update release="127">
+            <Date>2019-10-23</Date>
+            <Version>1.41.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Jacob Alzén</Name>
+            <Email>jacob.alzen@gmail.com</Email>
         </Update>
     </History>
 </PISI>

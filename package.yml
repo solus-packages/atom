@@ -1,8 +1,8 @@
 name       : atom
-version    : 1.40.1
-release    : 126
+version    : 1.41.0
+release    : 127
 source     :
-    - https://github.com/atom/atom/archive/v1.40.1.tar.gz : 7ec4b3fd35d3dcb4df90911726144ca5d05335ee9c0f093f2c29fa22fbe3527a
+    - https://github.com/atom/atom/archive/v1.41.0.tar.gz : 4a440909462c461cbec9b82b5f97bd21719a34f0ab59f2d859df85a40246c949
 license    : MIT
 component  : programming.ide
 summary    : Atom is a hackable text editor for the 21st century.
@@ -31,7 +31,7 @@ rundeps    :
     - curl-gnutls
     - git
 setup      : |
-    %patch -p1 < $pkgfiles/0001-Revert-git-utils-to-5.5.0-to-fix-undefined-symbols-o.patch
+    %patch -p1 < $pkgfiles/0001-fix-file-indexing.patch
 build      : |
     mkdir -p %installroot%/usr/bin/
     script/build
