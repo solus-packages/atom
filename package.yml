@@ -1,15 +1,13 @@
 name       : atom
-version    : 1.41.0
-release    : 127
+version    : 1.44.0
+release    : 128
 source     :
-    - https://github.com/atom/atom/archive/v1.41.0.tar.gz : 4a440909462c461cbec9b82b5f97bd21719a34f0ab59f2d859df85a40246c949
+    - https://github.com/atom/atom/releases/download/v1.44.0/atom-amd64.tar.gz : 2f736a47668834aa3a96506514265990daf89617e8c7b2418803566b3e246c5f
 license    : MIT
 component  : programming.ide
 summary    : Atom is a hackable text editor for the 21st century.
 description: |
     Atom is a hackable text editor for the 21st century.
-ccache     : no
-networking : yes
 builddeps  :
     - pkgconfig(alsa)
     - pkgconfig(gconf-2.0)
@@ -25,35 +23,22 @@ builddeps  :
     - pkgconfig(xscrnsaver)
     - pkgconfig(xtst)
     - cups-devel
-    - git
     - nodejs-devel
 rundeps    :
     - curl-gnutls
     - git
-setup      : |
-    %patch -p1 < $pkgfiles/0001-fix-file-indexing.patch
-build      : |
-    mkdir -p %installroot%/usr/bin/
-    script/build
 install    : |
+    # Create the install destinations.
     install -dm00644 $installdir/usr/bin
     install -dm00644 $installdir/usr/share/atom/
-    find out/atom-$version-amd64 \
-        -path "*/apm/etc" -prune -exec rm -r '{}' \; \
-        -or -path "*.md" -prune -exec rm -r '{}' \; \
-        -or -name "LICENSE" -prune -exec rm -r '{}' \; \
-        -or -name "doc" -prune -exec rm -r '{}' \; \
-        -or -name "example" -prune -exec rm -r '{}' \; \
-        -or -name "examples" -prune -exec rm -r '{}' \; \
-        -or -name "license" -prune -exec rm -r '{}' \; \
-        -or -name "man" -prune -exec rm -r '{}' \; \
-        -or -name "obj.target" -prune -exec rm -r '{}' \; \
-        -or -name "samples" -prune -exec rm -r '{}' \; \
-        -or -name "test" -prune -exec rm -r '{}' \; \
-        -or -name "tests" -prune -exec rm -r '{}' \; \
-        -or -name "tst" -prune -exec rm -r '{}' \;
-    cp -R out/atom-$version-amd64/* $installdir/usr/share/atom/
+
+    # The main install of atom.
+    cp -R * $installdir/usr/share/atom/
+
+    # Linking to the bin directory.
     ln -s /usr/share/atom/resources/app/apm/bin/apm $installdir/usr/bin/apm
     ln -s /usr/share/atom/atom $installdir/usr/bin/atom
-    install -Dm644 $pkgfiles/atom.desktop %installroot%/usr/share/applications/atom.desktop
-    install -Dm644 resources/app-icons/stable/png/512.png %installroot%/usr/share/pixmaps/atom.png
+
+    # Installation of the desktop file and a missing icon file.
+    install -Dm00644 $pkgfiles/atom.desktop %installroot%/usr/share/applications/atom.desktop
+    install -Dm00644 $pkgfiles/icon-512.png %installroot%/usr/share/pixmaps/atom.png
