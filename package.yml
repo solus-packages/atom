@@ -1,6 +1,6 @@
 name       : atom
 version    : 1.44.0
-release    : 128
+release    : 129
 source     :
     - https://github.com/atom/atom/releases/download/v1.44.0/atom-amd64.tar.gz : 2f736a47668834aa3a96506514265990daf89617e8c7b2418803566b3e246c5f
 license    : MIT

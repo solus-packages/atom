@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -7788,12 +7788,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="128">
+        <Update release="129">
             <Date>2020-02-10</Date>
             <Version>1.44.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
