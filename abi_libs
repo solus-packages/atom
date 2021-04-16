@@ -9,6 +9,8 @@ keytar.node
 libEGL.so
 libGLESv2.so
 libffmpeg.so
+libvk_swiftshader.so
+libvulkan.so
 nsfw.node
 nslog.node
 onig_scanner.node

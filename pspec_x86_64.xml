@@ -33,6 +33,8 @@
             <Path fileType="data">/usr/share/atom/libEGL.so</Path>
             <Path fileType="data">/usr/share/atom/libGLESv2.so</Path>
             <Path fileType="data">/usr/share/atom/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/atom/libvk_swiftshader.so</Path>
+            <Path fileType="data">/usr/share/atom/libvulkan.so</Path>
             <Path fileType="data">/usr/share/atom/locales/am.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/ar.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/bg.pak</Path>
@@ -86,7 +88,6 @@
             <Path fileType="data">/usr/share/atom/locales/vi.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/zh-CN.pak</Path>
             <Path fileType="data">/usr/share/atom/locales/zh-TW.pak</Path>
-            <Path fileType="data">/usr/share/atom/natives_blob.bin</Path>
             <Path fileType="data">/usr/share/atom/resources.pak</Path>
             <Path fileType="data">/usr/share/atom/resources/LICENSE.md</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar</Path>
@@ -216,6 +217,10 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/share/perl5/Git/SVN/Utils.pm</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/ssl/cacert.pem</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fs-admin/build/Release/fs_admin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/electron/ia32/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/electron/x64/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/node/ia32/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/node/x64/fswin.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/git-utils/build/Release/git.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/git-askpass-atom.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/git-askpass-atom.sh</Path>
@@ -225,6 +230,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/linux-ssh-wrapper.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/language-rust-bundled/node_modules/tree-sitter-rust/build/Release/tree_sitter_rust_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
@@ -259,12 +265,10 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-python/build/Release/tree_sitter_python_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-regex/build/Release/tree_sitter_regex_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-ruby/build/Release/tree_sitter_ruby_binding.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-rust/build/Release/tree_sitter_rust_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_tsx_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_typescript_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter/build/Release/tree_sitter_runtime_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/vscode-ripgrep/bin/rg</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/whats-my-line/node_modules/superstring/build/Release/superstring.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/resources/atom.png</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/.github/no-response.yml</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/BUNDLED_NODE_VERSION</Path>
@@ -6645,19 +6649,19 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/templates/theme/styles/colors.less</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/templates/theme/styles/syntax-variables.less</Path>
             <Path fileType="data">/usr/share/atom/resources/app/atom.sh</Path>
-            <Path fileType="data">/usr/share/atom/resources/electron.asar</Path>
             <Path fileType="data">/usr/share/atom/snapshot_blob.bin</Path>
             <Path fileType="data">/usr/share/atom/swiftshader/libEGL.so</Path>
             <Path fileType="data">/usr/share/atom/swiftshader/libGLESv2.so</Path>
             <Path fileType="data">/usr/share/atom/v8_context_snapshot.bin</Path>
             <Path fileType="data">/usr/share/atom/version</Path>
+            <Path fileType="data">/usr/share/atom/vk_swiftshader_icd.json</Path>
             <Path fileType="data">/usr/share/pixmaps/atom.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="139">
-            <Date>2021-03-10</Date>
-            <Version>1.55.0</Version>
+        <Update release="140">
+            <Date>2021-04-16</Date>
+            <Version>1.56.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@getsol.us</Email>
