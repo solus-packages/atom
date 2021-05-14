@@ -493,6 +493,7 @@ libc.so.6:chown
 libc.so.6:chroot
 libc.so.6:clearerr
 libc.so.6:clock
+libc.so.6:clock_getres
 libc.so.6:clock_gettime
 libc.so.6:clone
 libc.so.6:closedir
@@ -1830,6 +1831,7 @@ libstdc++.so.6:_ZNSs6appendEmc
 libstdc++.so.6:_ZNSs6assignEPKcm
 libstdc++.so.6:_ZNSs6assignERKSs
 libstdc++.so.6:_ZNSs6insertEmPKcm
+libstdc++.so.6:_ZNSs6insertEmRKSsmm
 libstdc++.so.6:_ZNSs6resizeEmc
 libstdc++.so.6:_ZNSs7_M_leakEv
 libstdc++.so.6:_ZNSs7replaceEmmPKcm
@@ -1842,6 +1844,7 @@ libstdc++.so.6:_ZNSsC1ERKSs
 libstdc++.so.6:_ZNSsC1ERKSsmm
 libstdc++.so.6:_ZNSsC1EmcRKSaIcE
 libstdc++.so.6:_ZNSsD1Ev
+libstdc++.so.6:_ZNSsD2Ev
 libstdc++.so.6:_ZNSsaSEPKc
 libstdc++.so.6:_ZNSspLEPKc
 libstdc++.so.6:_ZNSt10__num_base12_S_atoms_outE
@@ -1941,6 +1944,7 @@ libstdc++.so.6:_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
 libstdc++.so.6:_ZTTSt14basic_ofstreamIcSt11char_traitsIcEE
 libstdc++.so.6:_ZTVN10__cxxabiv117__class_type_infoE
 libstdc++.so.6:_ZTVN10__cxxabiv120__si_class_type_infoE
+libstdc++.so.6:_ZTVN10__cxxabiv121__vmi_class_type_infoE
 libstdc++.so.6:_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE
 libstdc++.so.6:_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE
 libstdc++.so.6:_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
