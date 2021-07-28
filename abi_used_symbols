@@ -1979,6 +1979,7 @@ libstdc++.so.6:__cxa_guard_release
 libstdc++.so.6:__cxa_pure_virtual
 libstdc++.so.6:__cxa_rethrow
 libstdc++.so.6:__cxa_throw
+libstdc++.so.6:__cxa_throw_bad_array_new_length
 libstdc++.so.6:__dynamic_cast
 libstdc++.so.6:__gxx_personality_v0
 libxcb-dri3.so.0:xcb_dri3_id

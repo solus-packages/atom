@@ -15,7 +15,7 @@ nsfw.node
 nslog.node
 onig_scanner.node
 pathwatcher.node
-scrollbar-style-observer.node
+scrollbar-style-observer-native.node
 spellchecker.node
 superstring.node
 tree_sitter_bash_binding.node

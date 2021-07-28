@@ -234,7 +234,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/scrollbar-style/build/Release/scrollbar-style-observer.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/scrollbar-style/build/Release/scrollbar-style-observer-native.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/spellchecker/LICENSE.md</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/spellchecker/README.md</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/spellchecker/build/Release/hunspell.a</Path>
@@ -6809,7 +6809,6 @@
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/yargs/locales/tr.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/yargs/locales/zh.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/node_modules/yargs/package.json</Path>
-            <Path fileType="data">/usr/share/atom/resources/app/apm/package-lock.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/package.json</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/script/bundled-node-version.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app/apm/script/check-version.js</Path>
@@ -6873,9 +6872,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="141">
-            <Date>2021-05-14</Date>
-            <Version>1.57.0</Version>
+        <Update release="142">
+            <Date>2021-07-28</Date>
+            <Version>1.58.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@getsol.us</Email>
