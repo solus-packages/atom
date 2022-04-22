@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -97,17 +97,12 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/ctags/build/Release/ctags.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/bin/git</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-add--interactive</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-archimport</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-bisect</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-credential-cache</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-credential-cache--daemon</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-credential-store</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-cvsexportcommit</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-cvsimport</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-cvsserver</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-daemon</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-difftool--helper</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-fast-import</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-filter-branch</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-http-backend</Path>
@@ -117,15 +112,8 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-instaweb</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-legacy-stash</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-lfs</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-merge-octopus</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-merge-one-file</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-merge-resolve</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-mergetool</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-mergetool--lib</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-parse-remote</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-quiltimport</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-rebase--preserve-merges</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-remote-http</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-request-pull</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-send-email</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-sh-i18n</Path>
@@ -6872,12 +6860,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="143">
-            <Date>2022-03-25</Date>
-            <Version>1.60.0</Version>
+        <Update release="144">
+            <Date>2022-04-22</Date>
+            <Version>1.61.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
