@@ -2,8 +2,8 @@
     <Source>
         <Name>atom</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -205,10 +205,9 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/share/perl5/Git/SVN/Utils.pm</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/dugite/git/ssl/cacert.pem</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fs-admin/build/Release/fs_admin.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/electron/ia32/fswin.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/electron/x64/fswin.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/node/ia32/fswin.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/node/x64/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/arm64/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/ia32/fswin.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/fswin/x64/fswin.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/git-utils/build/Release/git.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/git-askpass-atom.js</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/git-askpass-atom.sh</Path>
@@ -218,7 +217,6 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/github/bin/linux-ssh-wrapper.sh</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node</Path>
-            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/language-rust-bundled/node_modules/tree-sitter-rust/build/Release/tree_sitter_rust_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
@@ -253,6 +251,7 @@
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-python/build/Release/tree_sitter_python_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-regex/build/Release/tree_sitter_regex_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-ruby/build/Release/tree_sitter_ruby_binding.node</Path>
+            <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-rust/build/Release/tree_sitter_rust_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_tsx_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_typescript_binding.node</Path>
             <Path fileType="data">/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter/build/Release/tree_sitter_runtime_binding.node</Path>
@@ -6860,12 +6859,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="144">
-            <Date>2022-04-22</Date>
-            <Version>1.61.0</Version>
+        <Update release="145">
+            <Date>2022-11-19</Date>
+            <Version>1.63.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
     </History>
 </PISI>
